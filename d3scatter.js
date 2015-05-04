@@ -94,7 +94,7 @@ function drawVis(data) {
         .style("opacity", 0.5);
 }
 
-/*var loadData = function() {
+var loadData = function() {
     var metric = document.getElementById('gender').selectedOptions[0].text;
     var dataFile = 'stocks/' + gender + '.csv'
     d3.csv(dataFile, parseRow, function(data) {
@@ -104,4 +104,4 @@ function drawVis(data) {
         circ.exit().remove();
 
     })
-}*/
+}
